@@ -1,0 +1,12 @@
+<div>
+    <h2>Click on a track to listen to it.</h2>
+</div>
+
+<div class="row">
+    <div ng-repeat="song in userData">
+        <div class="col-md-1">
+            <img ng-src="{{song.artwork_url}}" ng-click="play(song.permalink_url)" ng-if="song.artwork_url">
+        </div>
+    </div>
+</div>
+<div ng-bind-html="player_html"></div>

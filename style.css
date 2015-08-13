@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+html body {
+    width: 100%;
+    height: 100%;
+}
+
+.text {
+    margin-left: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+.links {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    width: 150px;
+}
+
+img {
+    cursor: pointer;
+}
+
+.user-info {
+    margin-left: 20px;
+}
